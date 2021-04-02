@@ -1,8 +1,8 @@
 let person = {
-    name: 'John Doe',
-    getName: function() {
-        console.log("My name is "+this.name);
+    fullname: 'John Doe',
+    getFullName: function() {
+        console.log("My name is "+this.fullname);
     }
 };
-
-setTimeout(person.getName, 1000);
+person.getFullName()
+//setTimeout(person.getFullName, 1000);
