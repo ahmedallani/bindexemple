@@ -4,5 +4,5 @@ let person = {
         console.log("My name is "+this.fullname);
     }
 };
-//person.getFullName()
-setTimeout(person.getFullName.bind(person), 1000);
+person.getFullName()
+//setTimeout(person.getFullName, 1000);
